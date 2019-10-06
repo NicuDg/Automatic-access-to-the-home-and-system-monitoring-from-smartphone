@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonON"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/btn"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/buttonOFF"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/btn"
+        android:text="OFF"/>
+
+    <Button
+        android:id="@+id/buttonOpen"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="231dp"
+        android:background="@drawable/btn"
+        android:text="Open" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="231dp"
+        android:background="@drawable/btn"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/buttonOpenGate"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/btn"
+        android:text="Open" />
+
+    <Button
+        android:id="@+id/buttonCloseGate"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/btn"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/buttonOpenDoor"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/btn"
+        android:text="Open" />
+
+    <Button
+        android:id="@+id/buttonCloseDoor"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/btn"
+        android:text="Close" />
+
+
+    <TextView
+        android:id="@+id/textViewLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="324dp"
+        android:text="Light"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="241dp"
+        android:text="Barrier"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewGate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="164dp"
+        android:text="Gate"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="86dp"
+        android:text="Door"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewGarage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="Garage"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewLightStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="324dp"
+        android:layout_toEndOf="@id/textViewLight"
+        android:hint="No Data"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textBarrierStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="241dp"
+        android:layout_toEndOf="@id/textViewLight"
+        android:hint="No Data"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewGateStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="164dp"
+        android:layout_toEndOf="@id/textViewLight"
+        android:hint="No Data"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewDoorStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="86dp"
+        android:layout_toEndOf="@id/textViewLight"
+        android:hint="No Data"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewGarageStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@id/textViewLight"
+        android:hint="No Data"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonOFF"
+        android:layout_marginBottom="70dp"
+        android:scaleType="centerCrop"
+        android:textColor="@color/colorWhite"
+        app:srcCompat="@drawable/images" />
+
+</RelativeLayout>
